@@ -1,34 +1,8 @@
-a{
-	color:white;
-}
 body{
 	font-size:12px;		
 }
-.grid{
-	/*padding-left:200px;*/
-	/*padding-right:200px;*/
-}
-.topinfo{
-	padding-top: 10px;					
-	text-align: center;
-	background-color: blue; 
-}
-.footer{
-	padding-top: 5px;					
-	padding-bottom: 20px;					
-	text-align: center;
-	font-weight:bold;
-}
-.address{
-	font-size:14px;
-}
-
-.left-info{
-	font-weight:bold;
-}
 [class*="col-"] {
-	float: left;	
-	font-size: 14px;				
+	float: left;		
 }
 .col-1-2{
 	width: 50%;
@@ -73,45 +47,62 @@ body{
 .col-1-1{
 	width:100%;
 	float: left;	
-}
-.module {
-	padding: $pad;
-	background: #eee;
-}
-[contentEditable=true]:empty:not(:focus):before{
-	content:attr(data-ph);
-}
-.middlemattinfo{
-	padding-top: 10px;
-}
-.servicesrendered{
-	padding-top: 30px;
-}
-.servicesrendered2{
-	padding-top: 30px;
-}
-.main{
-	/* background-color: pink; */
 }	
-.dummy{
-	/* background-color: blue; */
-}		
 .moneyright{
 	text-align:right;
 }	
-.timedump{
-	/*padding-top: 95px;*/
-}
-.timeheader{
-	padding-top: 20px;
-}
-.timedetail{
-	padding-top: 10px;
-	/*padding-bottom: 45px;*/
-}
+/*
 .submenuitem{
 	display:none;	
 }
 .submenu:hover > .submenuitem{
 	display:block;	
+}
+.navbar{
+	background-color: blue;
+}
+.navitem a{
+	color:white;
+}
+*/
+
+nav {
+    background-color: #333;    
+    color: #fff;    
+}
+nav ul{    
+    padding: 0;    
+}
+nav ul li {    
+    display: inline-block;    
+}
+nav > ul > li > a {
+    color: #aaa;
+    display: block;    
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+nav li > ul{
+    display : none;    
+    background-color: #bbb;
+}
+
+nav li > ul li{
+    display: block;
+}
+
+/* these are the sub-menu items */
+nav  li > ul li a { 
+    color: #111;    
+    line-height: 2em;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #666;
+}
+nav li:hover > ul{
+    position:absolute;
+    display : block;
 }

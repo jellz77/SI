@@ -1,0 +1,117 @@
+a{
+	color:white;
+}
+body{
+	font-size:12px;		
+}
+.grid{
+	/*padding-left:200px;*/
+	/*padding-right:200px;*/
+}
+.topinfo{
+	padding-top: 10px;					
+	text-align: center;
+	background-color: blue; 
+}
+.footer{
+	padding-top: 5px;					
+	padding-bottom: 20px;					
+	text-align: center;
+	font-weight:bold;
+}
+.address{
+	font-size:14px;
+}
+
+.left-info{
+	font-weight:bold;
+}
+[class*="col-"] {
+	float: left;	
+	font-size: 14px;				
+}
+.col-1-2{
+	width: 50%;
+	/* background-color: red; */
+	float: left;	
+}
+.col-2-3 {
+	width: 66.66%;
+	float: left;	
+}
+.col-1-3 {
+	width: 33.33%;
+	float: left;	
+}
+.col-1-2 {
+	width: 50%;
+	float: left;	
+}
+.col-1-4 {
+	width: 25%;
+	float: left;	
+}
+.col-1-8 {
+	width: 12.5%;
+	/* background-color: red; */
+	float: left;	
+}
+.col-1-16 {
+	width: 6.25%;
+	/* background-color: red; */
+	float: left;	
+}
+.col-7-8 {
+	width: 87.5%;	
+	float: left;					
+}
+.col-3-4{
+	width: 75%;
+	float: left;	
+	/*background-color: pink;*/
+}
+.col-1-1{
+	width:100%;
+	float: left;	
+}
+.module {
+	padding: $pad;
+	background: #eee;
+}
+[contentEditable=true]:empty:not(:focus):before{
+	content:attr(data-ph);
+}
+.middlemattinfo{
+	padding-top: 10px;
+}
+.servicesrendered{
+	padding-top: 30px;
+}
+.servicesrendered2{
+	padding-top: 30px;
+}
+.main{
+	/* background-color: pink; */
+}	
+.dummy{
+	/* background-color: blue; */
+}		
+.moneyright{
+	text-align:right;
+}	
+.timedump{
+	/*padding-top: 95px;*/
+}
+.timeheader{
+	padding-top: 20px;
+}
+.timedetail{
+	padding-top: 10px;
+	/*padding-bottom: 45px;*/
+}
+.submenuitem{
+	display:none;	
+}
+.submenu:hover > .submenuitem{
+	display:block;	
+}

@@ -1,5 +1,5 @@
 <?php
-  class Db {a
+  class Db {
     private static $instance = NULL;
 
     private function __construct() {}

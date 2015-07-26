@@ -1,72 +1,319 @@
-<div class="col-1-1">
-	<div class="col-1-2">
-		<div class="col-1-2">
-			Matter Desc
+<div class="row">
+	<div class="col-lg-6">
+		<!--ATTORNEY INFO-->
+		<div class="row">
+			<div class="col-lg-6">
+				<h3 class="top_labels">Attorney Information</h3>
+			</div>
 		</div>
-		<div class="col-1-2">
-			<?php echo $mp;?>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Admin Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
 		</div>
-		<div class="col-1-2">
-			Admin
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Assisting Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
 		</div>
-		<div class="col-1-2">
-			<select>
-			<?php
-			foreach($mp1 as $h){
-				echo "<option>$h</option>";
-			}
-			?>
-			</select>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Rel. Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
 		</div>
-		<div class="col-1-2">
-			Assisting
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Principal Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
 		</div>
-		<div class="col-1-2">
-			a
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Managing Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
 		</div>
-		<div class="col-1-2">
-			Principle
-		</div>
-		<div class="col-1-2">
-			a
-		</div>
-		<div class="col-1-2">
-			Relationship
-		</div>
-		<div class="col-1-2">
-			a
-		</div>		
 	</div>
-	<div class="col-1-2">
-		<div class="col-1-2">
-			Attorney Info
+	<div class="col-lg-6">
+		<!--MATTER INFO-->
+		<div class="row">
+			<div class="col-lg-6">
+				<h3 class="top_labels">Matter Description</h3>
+			</div>
 		</div>
-		<div class="col-1-2">
-			a
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Claim Number</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
 		</div>
-		<div class="col-1-2">
-			Admin
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Matter ID</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
 		</div>
-		<div class="col-1-2">
-			a
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Policy Number</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
 		</div>
-		<div class="col-1-2">
-			Assisting
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Claimant</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
 		</div>
-		<div class="col-1-2">
-			a
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Deductible</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
 		</div>
-		<div class="col-1-2">
-			Principle
-		</div>
-		<div class="col-1-2">
-			a
-		</div>
-		<div class="col-1-2">
-			Relationship
-		</div>
-		<div class="col-1-2">
-			a
-		</div>		
 	</div>
 </div>
+<div class="row">
+	<div class="col-lg-6">
+		<!--ATTORNEY INFO-->
+		<div class="row">
+			<div class="col-lg-6">
+				<h3 class="top_labels">Attorney Information</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Admin Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Assisting Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Rel. Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Principal Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Managing Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<!--MATTER INFO-->
+		<div class="row">
+			<div class="col-lg-6">
+				<h3 class="top_labels">Matter Description</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Claim Number</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Matter ID</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Policy Number</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Claimant</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Deductible</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col-lg-6">
+		<!--ATTORNEY INFO-->
+		<div class="row">
+			<div class="col-lg-6">
+				<h3 class="top_labels">Attorney Information</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Admin Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Assisting Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Rel. Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Principal Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Managing Atty</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+		</div>
+	</div>
+	<div class="col-lg-6">
+		<!--MATTER INFO-->
+		<div class="row">
+			<div class="col-lg-6">
+				<h3 class="top_labels">Matter Description</h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Claim Number</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Matter ID</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Policy Number</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Claimant</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+
+		</div>
+		<div class="row">
+			<div class="col-lg-3">
+				<label>Deductible</label>
+			</div>
+			<div class="col-lg-3">
+				<input type="text" value="<?php echo $mp;?>" />					
+			</div>
+		</div>
+	</div>
+</div>
+

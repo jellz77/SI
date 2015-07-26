@@ -2,7 +2,7 @@
 
 class PartiesController{
 	public function view(){
-		echo 'we viewing parties';
+		require_once('views/pages/mp.php');	
 	}
 }
 
